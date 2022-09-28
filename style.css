@@ -226,6 +226,31 @@
     animation: bottom-white-move-360 3s;
 }
 
-
+@keyframes bottom-white-move-360{
+    0% {
+        right: 5%;
+        
+    }
+    25% {
+        right: calc(100% - 50px);
+        bottom: -10px;
+    }
+    50% {
+        right: calc(100% - 50px);
+        bottom: 100%;
+    }
+    75% {
+        right: -10px;
+        bottom: 100%;
+    }
+    90% {
+        right: -10px;
+        bottom: -10px;
+    }
+    100% {
+        right: 5%;
+        bottom:-10px
+    }
+}
 
 
