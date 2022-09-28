@@ -190,4 +190,47 @@
 
 
 
+.ex-13-button:hover .ex-13-top-white{
+    animation: top-white-move-360 3s ;
+}
+
+@keyframes top-white-move-360{
+    0% {
+        left: 5%;
+    }
+    25% {
+        left: calc(100% - 30px);
+    }
+    50% {
+        left: calc(100% - 30px);
+        top: 100%;
+    }
+    75% {
+        left: calc(100% - 30px);
+    }
+    90% {
+        left: calc(100% - 60px);
+    }
+    100% {
+        left: 5%;
+    }
+}
+
+
+.ex-13-button:hover .ex-13-bottom-white{
+    animation: bottom-white-move-360 3s;
+}
+
+@keyframes bottom-white-move-360{
+    0% {
+        right: 5%;
+    }
+    50% {
+        right: calc(100% - 60px);
+    }
+    100% {
+        right: 5%;
+    }
+}
+
 
