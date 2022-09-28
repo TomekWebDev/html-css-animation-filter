@@ -146,8 +146,17 @@
     height: 20px;
 }
 
+.ex-12-bottom-white, .ex-13-bottom-white {
+    position: absolute;
+    bottom: -10px;
+    right: 20%;
+    background: #f5f5f5;
+    width: 60px;
+    height: 20px;
+}
+
 .ex-12-button:hover .ex-12-top-white{
-    animation: top-white-move 2s ;
+    animation: top-white-move 3s ;
 }
 
 @keyframes top-white-move{
@@ -164,7 +173,7 @@
 
 
 .ex-12-button:hover .ex-12-bottom-white{
-    animation: bottom-white-move 2s;
+    animation: bottom-white-move 3s;
 }
 
 @keyframes bottom-white-move{
@@ -180,12 +189,5 @@
 }
 
 
-.ex-12-bottom-white, .ex-13-bottom-white {
-    position: absolute;
-    bottom: -10px;
-    right: 20%;
-    background: #f5f5f5;
-    width: 60px;
-    height: 20px;
-}
+
 
